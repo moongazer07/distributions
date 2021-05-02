@@ -1,3 +1,14 @@
+// if its not working its posibly the distro version and packages then upgrade your distro version eg for  debian is sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+&& apt-get autoremove
+
+// for redhat
+// subscription-manager register
+// yum --releasever=8.3 updatesubscription-manager register --auto-attach
+//  yum --releasever=8.3 update kernel
+// sudo yum check-update
+// sudo yum update
+// yum clean all
+
 # [NodeSource](https://nodesource.com) Node.js Binary Distributions
 
 [![NodeSource](images/ns-linux-distributions.svg)](https://nodesource.com)
